@@ -93,6 +93,8 @@ define :intro do
       play_note 1, :g3, 1
       play_note 1, :a3, 1
       play_note 1, :b3, 2
+    else
+      sleep 2.5
     end
   end
   in_thread do
@@ -249,11 +251,14 @@ define :bridge do
     sleep 107.5
     # Major Harmony
     if major_harmony
-      play_note 1, :c4, 0.5
-      play_note 1, :d4, 1
+      play_note 1, :c4, 0.25
+      sleep 0.25
+      play_note 1, :d4, 0.25
+      sleep 0.75
       play_note 1, :b4, 0.25
       play_note 1, :a4, 0.25
-      play_note 1, :b4, 1
+      play_note 1, :b4, 0.5
+      sleep 0.5
       play_note 1, :ds4, 0.5
       play_note 1, :as4, 0.5
       play_note 1, :g4, 0.5
@@ -312,6 +317,8 @@ define :bridge do
       play_note 1, :cs4, 0.25
       play_note 1, :c4, 0.25
       play_note 1, :b3, 6
+    else
+      sleep 1.5
     end
   end
   in_thread do
