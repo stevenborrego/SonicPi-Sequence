@@ -13,4 +13,9 @@ We found that in some cases, sending midi notes in quick succession resulted in 
 
 We found that working with Sonic Pi in this way led to a lot of tedious and repetitious code. I think that if we had been more familiar with Sonic Pi, we may have chosen to do a different project for this reason. A lesson we felt that we learned is that it is a good idea to have some experience with the technologies you are going to be working with, so you have a clear idea of what work is going to be like, instead of commiting to something only to find that the work is not what you had expected.
 
+## How To Use
 
+Load each file into its own buffer in the Sonic Pi environment. In the header buffer, you can use the flags to enable different phrases of the piece. Set the output flag to 1 to play using the built in Sonic Pi sounds, or 2 to send to external midi devices using channel midi channels 1 and 2 for melody and bass, respectively.
+
+
+Run preludeHeader.rb, then prelude.rb. Next, run preludeMain.rb to play the composition.
