@@ -22,6 +22,6 @@ Run preludeHeader.rb, then prelude.rb. Next, run preludeMain.rb to play the comp
 
 ## Videos of Execution
 
-[Running in Sonic Pi Environment]()
+[Running in Sonic Pi Environment](https://youtu.be/2cpHDbX79Ag)
 
 [Running on External MIDI Modules](https://youtu.be/VzPHFAwp0jk)
