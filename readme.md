@@ -19,3 +19,9 @@ Load each file into its own buffer in the Sonic Pi environment. In the header bu
 
 
 Run preludeHeader.rb, then prelude.rb. Next, run preludeMain.rb to play the composition.
+
+## Videos of Execution
+
+[Running in Sonic Pi Environment]()
+
+[Running on External MIDI Modules](https://youtu.be/VzPHFAwp0jk)
